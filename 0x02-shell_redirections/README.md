@@ -14,7 +14,7 @@ Commands used: echo, cat, head, tail, find, wc, sort, uniq, grep, tr, rev, cut
 
 6-third_line Write a script that displays the third line of the file iacta. The file iacta will be in the working directory. You're not allowed to use sed
 
-7-file Write a shell script that creates a file named exactly *\'"Holberton School"'\*$?*****:) containing the text Holberton School ending by a new line. Uses a lot of escape characters () and double quotes (") 8-cwd_state Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. Uses the redirect -truncate symbol (>).
+7-file Write a shell script that creates a file named exactly as given. Uses a lot of escape characters () and double quotes (") 8-cwd_state Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. Uses the redirect -truncate symbol (>).
 
 9-duplicate_last_line Write a script that duplicates the last line of the file iacta. Utilizes the pipe symbol (|) and the redirect -append symbol (>>)
 
@@ -51,4 +51,4 @@ Uses the printf and empty flags.
 
 Create a script that decodes acrostics that use the first letter of each line. The decoded message has to end with a new line. You are not allowed to use grep, egrep, fgrep or rgrep
 
-103-tsv Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Order by numbers of requests, most active host or IP at the top. Not allowed to use grep, egrep, fgrep, or rgrep. .
+103-the_biggest_fan Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Order by numbers of requests, most active host or IP at the top. Not allowed to use grep, egrep, fgrep, or rgrep. .
